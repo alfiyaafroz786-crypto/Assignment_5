@@ -19,7 +19,7 @@
 
 ## About Assignment
 
-   1. Custom Hook — useFetch(url)
+    1. Custom Hook — useFetch(url)
 
     > This Hook:
         >> Fetches data from any API
@@ -46,7 +46,7 @@
         >> Users - https://jsonplaceholder.typicode.com/users
     
     3. UI Logic
-    
+
     > Buttons:
         <button onClick={() => setActiveURL(PRODUCTS)}>Products</button>
         <button onClick={() => setActiveURL(USERS)}>Users</button>
