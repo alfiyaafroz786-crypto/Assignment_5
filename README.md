@@ -20,6 +20,7 @@
 ## About Assignment
 
    1. Custom Hook — useFetch(url)
+
     > This Hook:
         >> Fetches data from any API
         >> Manages loading, error, and data
@@ -34,6 +35,7 @@
         >> const { data, loading, error } = useFetch(activeURL);
 
     2. ApiTester Component
+
     > This component:
         >> Stores the active API URL in useState
         >> Contains buttons to change the API (Products / Users)
@@ -44,11 +46,12 @@
         >> Users - https://jsonplaceholder.typicode.com/users
     
     3. UI Logic
+    
     > Buttons:
         <button onClick={() => setActiveURL(PRODUCTS)}>Products</button>
         <button onClick={() => setActiveURL(USERS)}>Users</button>
     > Loading & Error:
-        {loading && <p>⏳ Loading...</p>}
+        {loading && <p> Loading...</p>}
         {error && <p style={{ color: "red" }}>{error}</p>}
     > Dynamic Cards
         If URL = Products - show image, title, price
