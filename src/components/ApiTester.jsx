@@ -20,7 +20,7 @@ export default function ApiTester() {
       </div>
 
       {loading && <p style={{ textAlign: "center" }}>⏳ Loading...</p>}
-      {error && <p style={{ textAlign: "center", color: "red" }}>❌ {error}</p>}
+      {error && <p style={{ textAlign: "center", color: "red" }}> {error}</p>}
 
       {/* ---- CARDS BASED ON API TYPE ---- */}
       <div className="card-container">
