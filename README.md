@@ -62,7 +62,6 @@
     > JavaScript
     > Vite
     > Custom Hooks
-    > Fetch API
     
 ## Netlify URL - https://alfiyaafroz-assignment5.netlify.app/
 
