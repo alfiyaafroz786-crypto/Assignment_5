@@ -19,7 +19,7 @@ export default function ApiTester() {
         <button onClick={() => setActiveURL(USERS)}>Users</button>
       </div>
 
-      {loading && <p style={{ textAlign: "center" }}>⏳ Loading...</p>}
+      {loading && <p style={{ textAlign: "center" }}> Loading...</p>}
       {error && <p style={{ textAlign: "center", color: "red" }}> {error}</p>}
 
       {/* ---- CARDS BASED ON API TYPE ---- */}
