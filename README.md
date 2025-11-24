@@ -28,8 +28,8 @@
     > Logic flow:
         >> loading = true
         >> Fetch API
-        >> If successful → update data
-        >> If failed → set error
+        >> If successful = update data
+        >> If failed = set error
         >> Always stop loader after fetch
     > Code:
         >> const { data, loading, error } = useFetch(activeURL);
